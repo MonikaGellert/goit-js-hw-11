@@ -70,10 +70,6 @@ function onLoadMoreBtn() {
     .catch(error => console.log(error));
 }
 
-function alertImagesFound(data) {
-  Notiflix.Notify.success(`Hooray! We found ${data.totalHits} images.`);
-}
-
 function alertNoEmptySearch() {
   Notiflix.Notify.failure(
     'The search string cannot be empty. Please specify your search query.'
