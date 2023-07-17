@@ -16,7 +16,6 @@ const perPage = 40;
 
 searchForm.addEventListener('submit', onSearchForm);
 loadMoreBtn.addEventListener('click', onLoadMoreBtn);
-onToTopBtn();
 
 function onSearchForm(item) {
   item.preventDefault();
